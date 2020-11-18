@@ -4,16 +4,16 @@
   <Resource name="jdbc/music" type="javax.sql.DataSource" auth="Container" 
             driverClassName="com.mysql.jdbc.Driver" 
             url="jdbc:mysql://localhost:3306/music?autoReconnect=true" 
-            username="ducky" password="bug14nda.mysql" 
+            username="root" password="" 
             logAbandoned="true" 
             removeAbandoned="true" removeAbandonedTimeout="60" 
             maxActive="100" maxIdle="30" maxWait="10000" />
 
-  <!-- the murach database that contains admin usernames and passwords -->
+  <!-- Admin usernames and passwords -->
   <Resource name="jdbc/ducky" type="javax.sql.DataSource" auth="Container" 
             driverClassName="com.mysql.jdbc.Driver" 
             url="jdbc:mysql://localhost:3306/ducky?autoReconnect=true" 
-            username="ducky" password="bug14nda.mysql" 
+            username="root" password="" 
             logAbandoned="true" 
             removeAbandoned="true" removeAbandonedTimeout="60" 
             maxActive="100" maxIdle="30" maxWait="10000" />

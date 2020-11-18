@@ -20,8 +20,8 @@
             anywhere else!
           </p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Check Out catalog</a>
-            <a href="#" class="btn btn-secondary my-2">Join Our Email List</a>
+            <a href="/musicStore/catalog" class="btn btn-primary my-2">Check Out catalog</a>
+            <a href="/musicStore/email" class="btn btn-secondary my-2">Join Our Email List</a>
           </p>
         </div>
       </section>
@@ -31,24 +31,10 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                  role="img"
-                  aria-label="Placeholder: AlbumArt">
-                  <image href="<c:url value='/images/8601_cover.jpg'/>"/>
-                  <title>AlbumArt</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="40%" y="50%" fill="#eceeef" dy=".3em">AlbumArt</text>
-                </svg>
+                <img src="./images/coldplay.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">
-                    Some Jazz about the song or album or jazz about the artist
-                  </p>
+                  <h5 class="card-title">ColdPlay</h5>
+                  <p class="card-text"><a href="product/8601">Adventure Of a Lifetime</a></p>
                   <div
                     class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -70,23 +56,11 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                  role="img"
-                  aria-label="Placeholder: AlbumArt">
-                  <title>AlbumArt</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="40%" y="50%" fill="#eceeef" dy=".3em">AlbumArt</text>
-                </svg>
+                <img src="./images/jay_z.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">
-                    Some Jazz about the song or album or jazz about the artist
-                  </p>
+                  <h5 class="card-title">Jay Z</h5>
+                  <p class="card-text"><a href="product/pf01">4:44 (Deluxe)</a></p>
+                  <p class="card-text"><a href="product/pf02">The Blueprint 3</a></p>
                   <div
                     class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -108,23 +82,10 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                  role="img"
-                  aria-label="Placeholder: AlbumArt">
-                  <title>AlbumArt</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="40%" y="50%" fill="#eceeef" dy=".3em">AlbumArt</text>
-                </svg>
+                <img src="./images/jcole.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">
-                    Some Jazz about the song or album or jazz about the artist
-                  </p>
+                  <h5 class="card-title">J Cole</h5>
+                  <p class="card-text"><a href="product/jr01">4 Your Eyez Only</a></p>
                   <div
                     class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">

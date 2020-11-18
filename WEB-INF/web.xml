@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
                         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
 
-    <display-name>Murach's Servlets and JSP: Music Store site</display-name>
+    <display-name>Music Store site</display-name>
     <description>The Music Store web site that's described in 
         Murach's Java Servlets and JSP (3rd Edition)</description>
 

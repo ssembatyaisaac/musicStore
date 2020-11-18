@@ -4,16 +4,48 @@
 
 <section>
 
-<h1>Login Form</h1>
-<p>Please enter a username and password to continue.</p>
-<form action="j_security_check" method="post">
-    <label>Username</label>
-    <input type="text" name="j_username"><br>
-    <label>Password</label>
-    <input type="password" name="j_password"><br>
-    <label>&nbsp;</label>
-    <input type="submit" value="Login">
-</form>
+    <!-- Form  -->
+    <div class="container col-md-3 mt-5 mb-5 text-center">
+        <form class="form-signin">
+            <img
+            class="mb-4"
+            src="images/logo.png"
+            alt=""
+            width="54"
+            height="72"
+            />
+            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+            <p>Please enter a username and password to continue.</p>
+
+            <label for="inputEmail" class="sr-only">Username</label>
+            <input
+            type="text"
+            id="j_username"
+            name="j_username"
+            class="form-control"
+            placeholder="Username"
+            required
+            autofocus
+            />
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input
+            type="password"
+            id="inputPassword"
+            class="form-control"
+            placeholder="Password"
+            required
+            />
+            <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me" /> Remember me
+            </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">
+            Sign in
+            </button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+        </form>
+        </div>
 
 </section>
 

@@ -21,8 +21,7 @@
   <body>
     <header>
       <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
+          <div class="row container">
             <div class="col-sm-8 col-md-7 py-4">
               <h4 class="text-white">About</h4>
               <p class="text-muted">
@@ -45,17 +44,16 @@
               </ul>
             </div>
           </div>
-        </div>
       </div>
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
+          <a href="<c:url value='/' />" class="navbar-brand d-flex align-items-center">
             <img src="<c:url value='/images/logo.png'/>" alt="" class="logo" style="width: 1.5rem" />
             <strong>JSP Music Store</strong>
           </a>
           <ul class="list-inline list-group list-group-horizontal">
-            <li><a class="current" href="<c:url value='/' />">
-                    Home</a></li>
+            <!-- <li><a class="current" href="<c:url value='/' />">
+                    Home</a></li> -->
             <li><a href="<c:url value='/catalog' />">
                     Browse Catalog</a></li>
             <li><a href="<c:url value='/email' />">

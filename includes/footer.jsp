@@ -1,17 +1,10 @@
-  <!--<footer>
-    <p>&copy; Copyright ${currentYear} Mike Murach &amp; Associates, Inc.
-        All rights reserved.</p>
-</footer>
-</body>
-</html>-->
-<!-- Footer -->
 <!-- Footer -->
     <footer class="footer mt-2 py-3">
-      <div class="container footer-container">
-        <div>
+      <div class="footer-container">
+        <div class="container">
           <span class="float-left mt-2">
             For
-            <a href="#"> Customer Service</a>
+            <a href="/musicStore/customer_service"> Customer Service</a>
             Info
           </span>
           <span class="text-muted float-right mt-2">
