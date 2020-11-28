@@ -1,12 +1,11 @@
 <jsp:include page="/includes/header.jsp" />
 
-<!-- start the middle column -->
 
 <section>
 
     <!-- Form  -->
     <div class="container col-md-3 mt-5 mb-5 text-center">
-        <form class="form-signin">
+        <form class="form-signin" action="j_security_check" method="post">
             <img
             class="mb-4"
             src="images/logo.png"
@@ -48,7 +47,5 @@
         </div>
 
 </section>
-
-<!-- end the middle column -->
 
 <jsp:include page="/includes/footer.jsp" />

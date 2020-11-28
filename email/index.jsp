@@ -13,7 +13,8 @@
                 <label for="inputEmail" class="sr-only">Email</label>
                 <input
                     type="email"
-                    id="inputEmail"
+                    id="email"
+                    name="email"
                     class="form-control"
                     placeholder="Email address"
                     required
@@ -25,6 +26,7 @@
             <input
                 type="text"
                 id="firstName"
+                name="firstName"
                 class="form-control"
                 placeholder="First Name"
                 required
@@ -36,6 +38,7 @@
             <input
                 type="text"
                 id="lastName"
+                name="lastName"
                 class="form-control"
                 placeholder="Last Name"
                 required

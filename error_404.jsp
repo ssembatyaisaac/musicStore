@@ -1,7 +1,5 @@
 <jsp:include page="/includes/header.jsp" />
 
-<!-- start the middle column -->
-
 <%@ page isErrorPage="true" %>
 
 <section>
@@ -14,7 +12,5 @@
         <p>Requested URI: ${pageContext.errorData.requestURI}</p>    
     </div>
 </section>
-
-<!-- end the middle column -->
 
 <jsp:include page="/includes/footer.jsp" />

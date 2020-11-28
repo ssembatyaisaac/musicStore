@@ -1,7 +1,5 @@
 <jsp:include page="/includes/header.jsp" />
 
-<!-- start the middle column -->
-
 <section>
     <div class="container">       
         <!-- Form -->
@@ -51,6 +49,4 @@
     </div>
 </section>
 
-<!-- end the middle column -->
-<jsp:include page="/includes/column_right_news.jsp" />
 <jsp:include page="/includes/footer.jsp" />
